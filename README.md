@@ -1,4 +1,4 @@
-# Indeed Job Filter Extension
+# Indeed Citizenship Detector Extension
 
 Chrome extension that automatically highlights jobs with citizenship or license requirements on Indeed.
 
