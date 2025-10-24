@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Indeed Citizenship Requirement Marker",
+  "version": "1.0",
+  "description": "Highlights jobs requiring US citizenship on Indeed",
+  "content_scripts": [
+    {
+      "matches": ["https://www.indeed.com/*", "https://*.indeed.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "permissions": []
+}
